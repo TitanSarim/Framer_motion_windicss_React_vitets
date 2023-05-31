@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: transparent;
+    background-color: transparent;
+    /* border-radius: 10px; */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(60, 60, 60); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(60, 60, 60); 
+  }
+
+.developer--conatainer{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #000000;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+}
+
+.developer--name{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.developer--name p{
+  font-size: 16px;
+  color: white;
+}
+
+.developer--name span{
+  position: relative;
+  top: 4px;
+}
+
+.developer--name span svg{
+  color: white;
+}
