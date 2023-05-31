@@ -1,5 +1,4 @@
 import Logo from "./Logo";
-import {MdArrowForward} from 'react-icons/md'
 import {motion} from 'framer-motion'
 import { reveal } from "../utils/animaiton";
 import { animationStart } from "../utils/animaiton";
